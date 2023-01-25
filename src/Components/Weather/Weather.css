@@ -1,0 +1,50 @@
+.Weather .card {
+  border: 0;
+  background: transparent;
+}
+.Weather .form-control {
+  display: inline;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  width: 150px;
+}
+
+.Weather .fa-map-marker-alt {
+  color: #1476a5;
+  cursor: pointer;
+  font-size: 1.9rem;
+  margin-left: 5px;
+  position: relative;
+  top: 3px;
+}
+
+.Weather .btn-secondary {
+  margin-top: -3px;
+  padding: 5px 10px;
+}
+
+
+.popup-remove-frm-fav {
+  position: fixed;
+  bottom: -60px;
+  right: 10px;
+  background: rgb(225, 5, 5);
+  padding: 15px 40px;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #ffffff;
+  border-radius: 8px;
+  text-transform: capitalize;
+  font-weight: bold;
+  animation: popup1 5s ease-in-out;
+}
+
+@keyframes popup1 {
+  10%, 90% {
+    bottom: 10px;
+  }
+  100% {
+    bottom: -60px;
+  }
+}
+

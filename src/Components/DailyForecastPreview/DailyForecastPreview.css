@@ -1,0 +1,19 @@
+.DailyForecastPreview {
+  font-size: 13px;
+  color: #57595f;
+  margin-top: 5px;
+}
+
+.DailyForecastPreview canvas {
+  display: block;
+  height: 35px;
+  width: 35px;
+  margin: 2px auto;
+  float: none;
+  color: #57595f;
+}
+
+.DailyForecastPreview .temperature {
+  display: inline-block;
+  font-size: 12px;
+}

@@ -1,0 +1,9 @@
+.WeatherForecast2 {
+  text-align: center;
+}
+.WeatherForecast2 p {
+  color: #57595f;
+  font-size: 14px;
+  border-bottom: 1px solid #b4aaaa;
+  margin-bottom: 5px;
+}

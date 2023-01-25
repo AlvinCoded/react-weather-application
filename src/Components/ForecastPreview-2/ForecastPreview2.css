@@ -1,0 +1,18 @@
+.ForecastPreview2 .WeatherIcon canvas {
+  display: block;
+  height: 35px;
+  width: 35px;
+  margin: 2px auto;
+  float: none;
+  color: #57595f;
+}
+
+.ForecastPreview2 {
+  color: #57595f;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.ForecastPreview2 .days {
+  font-size: 13px;
+}

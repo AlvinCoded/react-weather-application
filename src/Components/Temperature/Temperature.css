@@ -1,0 +1,24 @@
+.Temperature p.description {
+  color: #434752;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.Temperature ul.weather {
+  color: #434752;
+  font-size: 13px;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.Temperature ul.weather li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.Temperature button {
+  background: transparent;
+  border: 0px;
+}

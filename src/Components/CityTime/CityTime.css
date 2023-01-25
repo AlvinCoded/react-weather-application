@@ -1,0 +1,23 @@
+.CityTime h2 {
+  color: #333f6e;
+  font-size: 20px;
+}
+
+.CityTime li#last-update {
+  font-size: 13px;
+}
+.CityTime li#day {
+  font-size: 20px;
+  line-height: 1;
+  margin-top: 5px;
+}
+
+.CityTime #clock {
+  margin: 0;
+  font-size: 32px;
+}
+
+.CityTime #amPm {
+  position: relative;
+  top: -10px;
+}

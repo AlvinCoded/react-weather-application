@@ -1,0 +1,19 @@
+.HourlyForecast2 .WeatherIcon canvas {
+  display: block;
+  height: 35px;
+  width: 35px;
+  margin: 2px auto;
+  float: none;
+  color: #57595f;
+}
+
+.HourlyForecast2 {
+  color: #57595f;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.HourlyForecast2 .hour,
+.HourlyForecast2 .temperature {
+  font-size: 13px;
+}

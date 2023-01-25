@@ -1,0 +1,84 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+.search-it{
+    display: flex;
+}
+.search-it > .fa-map-marker-alt{
+    margin-left: 11px !important;
+}
+#search {
+    /* align-items: center; */
+    background: #034484;
+    border-radius: 10px;
+    display: flex;
+    /* margin: 0 auto; */
+    padding: 0.5em 0.5em 0.5em 1em;
+    transition: all 0.5s;
+    width: 90%;
+    font-weight: 500;
+  }
+#search:focus-within {
+    background: #3cd380;
+    color: #034484;
+
+  }
+  #search button,
+  #search input {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background: transparent;
+    border: 0;
+    color: #fff;
+    font: inherit;
+    outline: 0;
+  }
+  #search button {
+    cursor: pointer;
+    padding: 0 0.25em;
+  }
+  #search input {
+    flex: 1;
+  }
+  #search input::-moz-placeholder {
+    color: #fff;
+  }
+  #search input:-ms-input-placeholder {
+    color: #fff ;
+  }
+  #search input::placeholder {
+    color: #fff !important;
+  }
+  #search .spinner {
+    -webkit-animation: spinner 1s infinite linear;
+            animation: spinner 1s infinite linear;
+    display: none;
+    padding: 0 0.25em;
+  }
+  
+  #search.loading button {
+    display: none;
+  }
+  #search.loading .spinner {
+    display: block;
+  }
+  
+  @-webkit-keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
