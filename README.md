@@ -8,7 +8,7 @@ This is a weather web application powered by React.js that shows real-time weath
 - Hourly and Daily forecast of City/Country of focus :hourglass:
 - Switch between weather measurements (°C and °F) seamlessly 🔄
 - Dark/Light Mode :first_quarter_moon:
-- Geolocation - Get weather data of your current location. (don't worry your location is not going to be saved anywhere, I promise) :round_pushpin:
+- Geolocation - Get weather data of your current location. :round_pushpin: <br/>(don't worry your location is not going to be saved anywhere, I promise)
 - Fully Responsive design :iphone:
 
 ## Installation steps ⚙
