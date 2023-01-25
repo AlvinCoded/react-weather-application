@@ -1,5 +1,5 @@
 # React Weather Application ⛅
-This is a weather web application powered by React.js that shows real-time weather data using OpenWeather API.<br/>You can check out the [Demo](https://google.com/).
+This is a weather web application powered by React.js that shows real-time weather data using OpenWeather API.
 <br/><br/>
 <b>Note: <i>If the application isn't showing all data or any data in the demo available, this is because the number of API requests have been exhausted for the day. Not to worry, you can try again the next day.</i></b>
 
